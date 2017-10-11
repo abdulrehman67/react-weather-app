@@ -1,3 +1,8 @@
 import './styles.scss';
+import React from 'react';
+import ReactDom from 'react-dom';
+import App from './components/App';
 
-console.log('Hello, world!');
+const root = document.getElementById('app-container');
+ReactDom.render(<App />, root);
+
